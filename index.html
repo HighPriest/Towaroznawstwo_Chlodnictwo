@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides" style="text-shadow: 2px 2px black">
+				<section style="text-shadow: 2px 2px black" data-background="https://media1.tenor.com/images/a73a8bac7360cc5564ea6d7352a6f072/tenor.gif?itemid=3574041">
+					<h3 style="text-shadow: 2px 2px black">Szybkie i wolne</h1>
+					<h2 style="text-shadow: 2px 2px black">Chłodzenie oraz zamrażanie</h2>
+					<p><small>żywności</small></p>
+				</section>
+				<section>
+						<img style="width:50%; background-color:white" src="./assets/a.png" alt="">
+						<h3>Największy spadek aktywności enzymów</h3>
+						<p><small>Uzyskujemy w temperaturach niewiele poniżej 0C</small></p>
+				</section>
+				<section>
+					<div id="left">
+					<h3>Większość cząsteczek nie reaguje wyjątkowo spontanicznie na tą zmianę.</h3>
+					<p>Ale woda, na której zachowaniach oparta jest skala Celsjusza, już tak!</p>
+					</div>
+					<div id="right">
+						<img src="http://i.imgur.com/qW6s6EC.gif" alt="">
+					</div>
+				</section>
+				<section>
+					<img src="./assets/1.png" alt="">
+					<p>Obraz mikroskopowy komórek przy wolnym i szybkim zamrażaniu ryby<br>
+						a) -5°C b) -25°C
+					</p>
+				</section>
+				<section>
+						<img src="./assets/2.png" alt="">
+						<p><small>1-szybkie zamr. 2-wolne zamr.<br>
+							A-B - strefa maksymalizacji rozmiarów powstających kryształków lodu</small></p>
+						<p></p>
+				</section>
+				<section data-background="https://media0.giphy.com/media/qwBsLN2lyEX3q/giphy.gif?cid=3640f6095c367bd1714b62776bfe3dbb">
+					<p>Dla każdego produktu dobiera się optymalny zakres szybkości zamrażania</p>
+				</section>
+				<section>
+					<img src="./assets/3.png" alt="">
+					<p>Średni udział owoców (maliny) nieuszkodzonych po 3 miesiącach przechowywania</p>
+					<p><small>LN2 - ciekły azot; FL - fluidyzacja; OW - owiewanie</small></p>
+				</section>
+				<section data-background="https://media1.tenor.com/images/aee01ccfa646631ef7733a712fbe529c/tenor.gif?itemid=3574037">
+					<p>Z rozmrażaniem jest już łatwiej!!</p>
+				</section>
+				<section>
+					<p>Poza specjalnymi przypadkami np. komórek roślinnych, nie ma przeciwskazań do szybkiego rozmrażania</p>
+					<p>Co więcej, tkanki zwierzęce dają lepsze wyniki przeżywania gdy rozmrażane są w optymalnych dla życia warunkach</p>
+				</section>
+				<section>
+						<p>Problem jest na tyle duży iż nad technologią chłodniczą pracują wyspecjalizowane laboratoria "Kriobologiczne"</p>
+						<img src="http://cryobiology.yolasite.com/resources/10094792.jpg" alt="">
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+#left {
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+}
